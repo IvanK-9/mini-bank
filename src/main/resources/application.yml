@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/minibank
+    username: minibank
+    password: minibank
+  jpa:
+    hibernate:
+      ddl-auto: update   # demo only; switch to Flyway migrations
+    open-in-view: false
